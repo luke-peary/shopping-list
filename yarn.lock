@@ -2351,6 +2351,11 @@
   resolved "https://registry.yarnpkg.com/@sheerun/mutationobserver-shim/-/mutationobserver-shim-0.3.3.tgz#5405ee8e444ed212db44e79351f0c70a582aae25"
   integrity sha512-DetpxZw1fzPD5xUBrIAoplLChO2VB8DlL5Gg+I1IR9b2wPqYIca2WSUxL5g1vLeR4MsQq1NeWriXAVffV+U1Fw==
 
+"@stencil/core@^2.0.1":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-2.0.3.tgz#8719d3131362076a35b7a7c865de4720766f3f47"
+  integrity sha512-d4qLDN7HKwJEK+ljhknD8azpM4bF49Dv7h5yG3RF+SPo8uozDq3p5ZNj1MgZoRgzh04kXNyG/MKnD8H2QN5YVw==
+
 "@storybook/addon-actions@6.0.2", "@storybook/addon-actions@^6.0.2":
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.0.2.tgz#91538ba5612c87c1152f7775fa06382e1bbccbd4"
@@ -14090,6 +14095,13 @@ stylehacks@^4.0.0:
     browserslist "^4.0.0"
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
+
+superawesomewc@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/superawesomewc/-/superawesomewc-0.1.0.tgz#ecc1ea45df27676d1b5ee2e9bfb23a90aa67bb25"
+  integrity sha512-0/7UMWm/cDW3Qf63bsapcOF6cnwY2K/jbGKnSuNVmM2I0cTKj4sZCgzfCNhu4x9naHi9aplrYoRxnngSjDsl8A==
+  dependencies:
+    "@stencil/core" "^2.0.1"
 
 supports-color@^2.0.0:
   version "2.0.0"
