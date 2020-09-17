@@ -14,7 +14,8 @@
     "react-scripts": "3.4.2",
     "styled-components": "^5.1.1",
     "styled-components-breakpoint": "^3.0.0-preview.20",
-    "styled-normalize": "^8.0.7"
+    "styled-normalize": "^8.0.7",
+    "superawesomewc": "0.0.9"
   },
   "scripts": {
     "start": "react-scripts start",
