@@ -5,7 +5,7 @@ const ProductTile = ({ img, name, price, quantity, removed, addedToCart }) => {
 
   useEffect(() => {
     elementRef.current.addEventListener("removed", removed);
-    elementRef.current.addEventListener("addToCart", addedToCart);
+    elementRef.current.addEventListener("addedToCart", addedToCart);
   }, [addedToCart, removed]);
 
   return (

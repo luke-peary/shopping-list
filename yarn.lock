@@ -14096,10 +14096,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-superawesomewc@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/superawesomewc/-/superawesomewc-0.0.9.tgz#de80b6405056e8b4e693da62b1193aabf0c55248"
-  integrity sha512-MmlUhbXhrr8hsrcPMKxmm1EDf+OeZLCgxHOPc8owCeJbCKhFyGKeQaa83bKNOiEu5u9J+7gGmpQ5DZMANoi56A==
+superawesomewc@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/superawesomewc/-/superawesomewc-0.1.0.tgz#ecc1ea45df27676d1b5ee2e9bfb23a90aa67bb25"
+  integrity sha512-0/7UMWm/cDW3Qf63bsapcOF6cnwY2K/jbGKnSuNVmM2I0cTKj4sZCgzfCNhu4x9naHi9aplrYoRxnngSjDsl8A==
   dependencies:
     "@stencil/core" "^2.0.1"
 

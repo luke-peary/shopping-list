@@ -13,6 +13,10 @@ const ShoppingList = () => {
     });
   };
 
+  const addAllToCart = () => {
+    alert("All items added to cart");
+  };
+
   const removeAll = () => {
     setProducts([]);
   };
@@ -26,7 +30,7 @@ const ShoppingList = () => {
   };
 
   const addToCart = () => {
-    alert("Add to cart");
+    alert("Added to cart");
   };
 
   const ListOfProducts = () => {
@@ -62,7 +66,9 @@ const ShoppingList = () => {
       </Header>
 
       <Actions>
-        <sa-button variant="primary">Add all to cart</sa-button>
+        <sa-button onClick={addAllToCart} variant="primary">
+          Add all to cart
+        </sa-button>
         <sa-button onClick={removeAll} variant="secondary">
           Clear list
         </sa-button>
