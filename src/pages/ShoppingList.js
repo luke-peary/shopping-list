@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Header, Actions, List } from "./ShoppingList.styles";
 import Container from "../components/layout/Container";
-import ProductTile from "../components/stencil/ProductTile";
+import { SaHeading, SaButton, SaCopy, SaProductTile } from "sa-library-react";
 import * as Api from "../utils/api";
 
 const ShoppingList = () => {
@@ -37,20 +37,20 @@ const ShoppingList = () => {
     if (products.length) {
       return products.map((product) => {
         return (
-          <ProductTile
+          <SaProductTile
             key={product.id}
             img={product.image}
             name={product.productName}
             price={product.price}
             quantity={product.qty}
-            removed={() => removeOne(product.id)}
-            addedToCart={() => addToCart(product)}
+            onRemoved={() => removeOne(product.id)}
+            onAddedToCart={() => addToCart(product)}
           />
         );
       });
     }
 
-    return <sa-copy>You have no products in your shopping list</sa-copy>;
+    return <SaCopy>You have no products in your shopping list</SaCopy>;
   };
 
   useEffect(() => {
@@ -60,18 +60,18 @@ const ShoppingList = () => {
   return (
     <Container>
       <Header>
-        <sa-heading as="h1" variant="title">
+        <SaHeading as="h1" variant="title">
           Shopping List
-        </sa-heading>
+        </SaHeading>
       </Header>
 
       <Actions>
-        <sa-button onClick={addAllToCart} variant="primary">
+        <SaButton onClick={addAllToCart} variant="primary">
           Add all to cart
-        </sa-button>
-        <sa-button onClick={removeAll} variant="secondary">
+        </SaButton>
+        <SaButton onClick={removeAll} variant="secondary">
           Clear list
-        </sa-button>
+        </SaButton>
       </Actions>
 
       <List>
